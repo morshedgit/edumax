@@ -30,7 +30,7 @@ function App() {
       <UserContext.Provider
         value={{ state: userState, dispatch: userDispatch }}
       >
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
           <Router>
             <Header />
             <Switch>
